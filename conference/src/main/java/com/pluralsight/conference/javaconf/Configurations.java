@@ -8,10 +8,10 @@ import javax.sql.DataSource;
 
 @Configuration
 public class Configurations {
-    @Bean
-    public DataSource dataSource() {
-        DataSourceBuilder builder = DataSourceBuilder.create();
-        builder.url("jdbc:postgresql://localhost:5432/conference");
-        return builder.build();
-    }
+//    @Bean
+//    public DataSource dataSource() {
+ //       DataSourceBuilder builder = DataSourceBuilder.create();
+   //     builder.url("jdbc:postgresql://localhost:5432/conference");
+     //   return builder.build();
+  //  }
 }
